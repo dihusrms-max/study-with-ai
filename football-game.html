@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="30초 안에 최대한 많은 골을 넣는 미니 축구 게임입니다." />
+    <title>Mini Football | Karina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/football-game.css" />
+    <script src="js/football-game.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">← KARINA / PROFILE</a>
+      <span class="game-badge">MINI GAME</span>
+    </header>
+    <main class="game-shell">
+      <section class="game-intro" aria-labelledby="game-title">
+        <p class="eyebrow">FOOTBALL / 30 SECONDS</p>
+        <h1 id="game-title">골대를 향해<br /><span>슛!</span></h1>
+        <p>화살표 키 또는 WASD로 선수를 움직여 공을 차세요. 제한 시간 안에 많은 골을 넣으면 됩니다.</p>
+      </section>
+      <section class="game-card" aria-label="미니 축구 게임">
+        <div class="scoreboard" aria-live="polite">
+          <div><span>SCORE</span><strong id="score">0</strong></div>
+          <div><span>TIME</span><strong id="time">30</strong></div>
+          <button id="restart" type="button">다시 시작</button>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="game-canvas" width="800" height="500" aria-label="미니 축구 게임 화면"></canvas>
+          <div class="start-screen" id="start-screen"><p>30초 미니 축구</p><button id="start" type="button">게임 시작</button></div>
+        </div>
+        <div class="mobile-controls" aria-label="화면 조작 버튼">
+          <button data-key="ArrowUp" aria-label="위로 이동">↑</button>
+          <div><button data-key="ArrowLeft" aria-label="왼쪽으로 이동">←</button><button data-key="ArrowDown" aria-label="아래로 이동">↓</button><button data-key="ArrowRight" aria-label="오른쪽으로 이동">→</button></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
