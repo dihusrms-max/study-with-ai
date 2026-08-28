@@ -1,15 +1,7 @@
-:root { color-scheme: dark; --bg: #101116; --surface: #1a1c24; --text: #f4f2ff; --muted: #b9b7c8; --accent: #a89cff; --mint: #83f0d2; --line: rgba(218, 214, 255, 0.2); }
-* { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text); font-family: "Gowun Dodum", sans-serif; line-height: 1.6; }
-:focus-visible { outline: 3px solid var(--mint); outline-offset: 4px; }
-.site-header, .worldcup-shell { width: min(100%, 70rem); margin-inline: auto; padding-inline: clamp(1.25rem, 5vw, 4rem); }
-.site-header { display: flex; align-items: center; justify-content: space-between; padding-top: 1.6rem; }
-.brand, .eyebrow, .game-badge, .match-header { font-family: "Instrument Sans", sans-serif; font-weight: 600; letter-spacing: 0.08em; }
-.brand { color: var(--mint); font-size: 0.78rem; text-decoration: none; }
-.game-badge { border: 1px solid var(--accent); border-radius: 999px; padding: 0.3rem 0.55rem; color: var(--accent); font-size: 0.68rem; }
+.worldcup-shell { width: min(100%, 70rem); margin-inline: auto; padding-inline: clamp(1.25rem, 5vw, 4rem); }
 .worldcup-shell { padding-top: clamp(4rem, 9vw, 7rem); padding-bottom: 5rem; }
 .worldcup-intro { max-width: 44rem; }
-.eyebrow { margin: 0 0 0.6rem; color: var(--mint); font-size: 0.72rem; }
+.eyebrow { margin: 0 0 0.6rem; }
 h1, h2 { letter-spacing: -0.06em; line-height: 1.08; }
 h1 { margin: 0 0 1.25rem; font-size: clamp(2.5rem, 7vw, 5.5rem); }
 h1 span { color: var(--accent); }

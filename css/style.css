@@ -22,19 +22,13 @@
   --line: rgba(44, 34, 115, 0.2);
 }
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; overflow-x: hidden; background: var(--background); color: var(--text); font-family: "Gowun Dodum", sans-serif; line-height: 1.7; transition: background-color 200ms ease, color 200ms ease; }
-a { color: inherit; }
-button, a { -webkit-tap-highlight-color: transparent; }
-:focus-visible { outline: 3px solid var(--mint); outline-offset: 4px; }
+body { line-height: 1.7; transition: background-color 200ms ease, color 200ms ease; }
 
 .skip-link { position: fixed; z-index: 10; top: 0.75rem; left: 0.75rem; padding: 0.55rem 0.8rem; background: var(--mint); color: #101116; transform: translateY(-200%); }
 .skip-link:focus { transform: translateY(0); }
-.site-header, .site-footer, .section { width: min(100%, var(--max-width)); margin-inline: auto; padding-inline: var(--page-padding); }
-.site-header { display: flex; align-items: center; justify-content: space-between; padding-top: 1.6rem; }
-.brand, .theme-toggle, .eyebrow, .number { font-family: "Instrument Sans", sans-serif; font-weight: 600; letter-spacing: 0.08em; }
-.brand, .editor-link, .game-link, .worldcup-link { color: var(--mint); font-size: 0.78rem; text-decoration: none; }
+.site-footer, .section { width: min(100%, var(--max-width)); margin-inline: auto; padding-inline: var(--page-padding); }
+.theme-toggle, .number { font-family: "Instrument Sans", sans-serif; font-weight: 600; letter-spacing: 0.08em; }
+.editor-link, .game-link, .worldcup-link { color: var(--mint); font-size: 0.78rem; text-decoration: none; }
 .game-link, .editor-link, .worldcup-link { margin-right: 0.65rem; padding: 0.35rem 0.55rem; border: 1px solid var(--line); border-radius: 999px; font-family: "Instrument Sans", sans-serif; font-weight: 600; letter-spacing: 0.08em; }
 .game-link { margin-left: auto; }
 .editor-link:hover, .game-link:hover, .worldcup-link:hover { border-color: var(--mint); }
@@ -46,7 +40,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-orbit { position: absolute; z-index: -1; border: 1px solid var(--line); border-radius: 50%; pointer-events: none; }
 .orbit-one { width: clamp(18rem, 45vw, 35rem); height: clamp(18rem, 45vw, 35rem); right: -10%; top: 13%; }
 .profile-image { display: block; width: 5.5rem; height: 5.5rem; border: 3px solid var(--mint); border-radius: 50%; object-fit: cover; object-position: center top; box-shadow: 0 0 0 0.45rem color-mix(in srgb, var(--accent) 16%, transparent); }
-.eyebrow { margin: 1.7rem 0 0.5rem; color: var(--mint); font-size: 0.73rem; }
+.eyebrow { margin: 1.7rem 0 0.5rem; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 { line-height: 1.18; }
 h1, h2 { font-size: clamp(2.25rem, 7vw, 5rem); letter-spacing: -0.055em; }
