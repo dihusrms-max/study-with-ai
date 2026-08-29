@@ -1,0 +1,12 @@
+{
+  "name": "study-with-ai-static-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static-site JavaScript syntax checks only.",
+  "scripts": {
+    "check:js": "node tools/check-js.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
