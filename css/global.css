@@ -1,0 +1,124 @@
+:root {
+  color-scheme: dark;
+  --background: #101116;
+  --surface: #1a1c24;
+  --text: #f4f2ff;
+  --muted: #b9b7c8;
+  --accent: #a89cff;
+  --mint: #83f0d2;
+  --line: rgba(218, 214, 255, 0.2);
+  --content-width: 70rem;
+  --page-padding: clamp(1.25rem, 5vw, 4rem);
+  --header-padding-top: 1.6rem;
+  --font-body: "Gowun Dodum", sans-serif;
+  --font-display: "Instrument Sans", sans-serif;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --background: #f7f6ff;
+  --surface: #eceaff;
+  --text: #191724;
+  --muted: #625f73;
+  --accent: #5d4bdb;
+  --mint: #087f69;
+  --line: rgba(44, 34, 115, 0.2);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+a { color: inherit; }
+
+button, a { -webkit-tap-highlight-color: transparent; }
+
+:focus-visible {
+  outline: 3px solid var(--mint);
+  outline-offset: 4px;
+}
+
+h1, h2, h3, p { margin-top: 0; }
+
+h1, h2, h3 { line-height: 1.18; }
+
+h1 span { color: var(--accent); }
+
+.site-header {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100%, var(--content-width));
+  margin-inline: auto;
+  padding: var(--header-padding-top) var(--page-padding) 0;
+}
+
+.brand, .eyebrow, .navigation-link, .theme-toggle {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.brand {
+  color: var(--mint);
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+
+.eyebrow {
+  color: var(--mint);
+  font-size: 0.72rem;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-left: auto;
+}
+
+.navigation-link, .theme-toggle {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.4rem 0.65rem;
+  background: transparent;
+  color: var(--mint);
+  cursor: pointer;
+  font-size: 0.73rem;
+  text-decoration: none;
+}
+
+.navigation-link:hover, .navigation-link[aria-current="page"], .theme-toggle:hover {
+  border-color: var(--mint);
+}
+
+.navigation-link[aria-current="page"] {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--text);
+}
+
+.theme-toggle { color: var(--text); }
+
+.theme-toggle span:first-child {
+  margin-right: 0.4rem;
+  color: var(--mint);
+}
+
+@media (max-width: 42rem) {
+  .site-header { flex-wrap: wrap; }
+  .site-navigation { order: 3; width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

@@ -8,15 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/gif-editor.css" />
     <script src="js/common.js" defer></script>
     <script src="js/gif-editor.js" defer></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="index.html">← KARINA / PROFILE</a>
-      <span class="test-badge">TEST LAB</span>
+      <a class="brand" href="index.html" aria-label="자기소개 페이지로 이동">KARINA / PROFILE</a>
+      <nav class="site-navigation" aria-label="주요 메뉴">
+        <a class="navigation-link" href="index.html">PROFILE</a>
+        <a class="navigation-link" href="gif-editor.html">GIF EDITOR</a>
+        <a class="navigation-link" href="football-game.html">FOOTBALL</a>
+        <a class="navigation-link" href="ideal-worldcup.html">WORLD CUP</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="라이트 모드로 전환" aria-pressed="true">
+        <span aria-hidden="true">THEME</span><span class="theme-label">다크 모드</span>
+      </button>
     </header>
     <main class="editor-shell">
       <section class="editor-intro" aria-labelledby="editor-title">
@@ -35,6 +43,7 @@
           </label>
           <div class="preview-frame" id="preview-frame" hidden>
             <img id="gif-preview" alt="업로드한 GIF 미리보기" />
+            <button class="replace-file" type="button" id="replace-file">다른 GIF 선택</button>
           </div>
           <p class="file-status" id="file-status" role="status">아직 선택된 파일이 없습니다.</p>
         </div>
@@ -46,7 +55,7 @@
             <input id="speed" type="range" min="0.5" max="2" value="1" step="0.5" />
             <label class="control-row" for="scale"><span>내보내기 크기</span><output id="scale-output">원본</output></label>
             <select id="scale"><option value="100">원본 크기</option><option value="75">75%</option><option value="50">50%</option></select>
-            <div class="trim-group"><span>구간 선택</span><div><label for="start-frame">시작 <input id="start-frame" type="number" min="0" value="0" /></label><label for="end-frame">끝 <input id="end-frame" type="number" min="1" value="0" /></label></div></div>
+            <div class="trim-group"><span>구간 선택</span><div><label for="start-frame">시작 <input id="start-frame" type="number" min="0" step="1" value="0" /></label><label for="end-frame">끝 <input id="end-frame" type="number" min="0" step="1" value="0" /></label></div></div>
             <label class="checkbox-row" for="loop"><input id="loop" type="checkbox" checked /> 반복 재생</label>
           </fieldset>
           <button class="export-button" type="submit" disabled id="export-button">테스트 결과 만들기</button>

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/common.js" defer></script>
     <script src="js/script.js" defer></script>
@@ -16,12 +16,15 @@
   <body>
     <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="페이지 맨 위로 이동">KARINA / PROFILE</a>
-      <a class="game-link" href="football-game.html">FOOTBALL</a>
-      <a class="editor-link" href="gif-editor.html">GIF EDITOR</a>
-      <a class="worldcup-link" href="ideal-worldcup.html">WORLD CUP</a>
+      <a class="brand" href="index.html" aria-label="자기소개 페이지로 이동">KARINA / PROFILE</a>
+      <nav class="site-navigation" aria-label="주요 메뉴">
+        <a class="navigation-link" href="index.html">PROFILE</a>
+        <a class="navigation-link" href="gif-editor.html">GIF EDITOR</a>
+        <a class="navigation-link" href="football-game.html">FOOTBALL</a>
+        <a class="navigation-link" href="ideal-worldcup.html">WORLD CUP</a>
+      </nav>
       <button class="theme-toggle" type="button" aria-label="라이트 모드로 전환" aria-pressed="true">
-        <span aria-hidden="true">THEME</span><span class="theme-label">라이트 모드</span>
+        <span aria-hidden="true">THEME</span><span class="theme-label">다크 모드</span>
       </button>
     </header>
     <main id="main-content">

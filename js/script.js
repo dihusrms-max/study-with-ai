@@ -1,4 +1,8 @@
-document.querySelector('#year').textContent = new Date().getFullYear();
+const currentYear = document.querySelector('#year');
+
+if (currentYear) {
+  currentYear.textContent = new Date().getFullYear();
+}
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const revealElements = document.querySelectorAll('.reveal');

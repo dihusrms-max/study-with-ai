@@ -2,6 +2,12 @@ const themeToggle = document.querySelector('.theme-toggle');
 const themeLabel = document.querySelector('.theme-label');
 const storageKey = 'intro-page-theme';
 
+document.querySelectorAll('.navigation-link').forEach((link) => {
+  if (new URL(link.href).pathname === window.location.pathname) {
+    link.setAttribute('aria-current', 'page');
+  }
+});
+
 if (themeToggle && themeLabel) {
   function setTheme(theme) {
     const isDark = theme === 'dark';
