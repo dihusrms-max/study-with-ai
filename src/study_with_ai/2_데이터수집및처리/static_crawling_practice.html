@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>정적 크롤링 연습용 서점</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="site-title">책숲 서점</h1>
+      <p class="notice">학습용 가상 데이터입니다.</p>
+      <nav aria-label="카테고리">
+        <a href="/books?category=python">파이썬</a>
+        <a href="/books?category=data">데이터 분석</a>
+        <a href="/books?category=web">웹 개발</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="featured-books">
+        <h2>추천 도서</h2>
+
+        <article class="book-card" data-book-id="101">
+          <h3 class="book-title">혼자 공부하는 파이썬</h3>
+          <p class="author">윤인성</p>
+          <p class="category">파이썬</p>
+          <span class="price" data-currency="KRW">22,000원</span>
+          <span class="rating">4.8</span>
+          <a class="detail-link" href="/books/101">상세 보기</a>
+        </article>
+
+        <article class="book-card" data-book-id="102">
+          <h3 class="book-title">데이터 분석 첫걸음</h3>
+          <p class="author">김데이터</p>
+          <p class="category">데이터 분석</p>
+          <span class="price" data-currency="KRW">28,500원</span>
+          <span class="rating">4.5</span>
+          <a class="detail-link" href="/books/102">상세 보기</a>
+        </article>
+
+        <article class="book-card sold-out" data-book-id="103">
+          <h3 class="book-title">HTML과 CSS 기초</h3>
+          <p class="author">박웹</p>
+          <p class="category">웹 개발</p>
+          <span class="price" data-currency="KRW">19,800원</span>
+          <span class="rating">4.2</span>
+          <span class="stock">품절</span>
+          <a class="detail-link" href="/books/103">상세 보기</a>
+        </article>
+
+        <article class="book-card" data-book-id="104">
+          <h3 class="book-title">판다스로 시작하는 데이터 처리</h3>
+          <p class="author">이분석</p>
+          <p class="category">데이터 분석</p>
+          <span class="rating">4.9</span>
+          <a class="detail-link" href="/books/104">상세 보기</a>
+        </article>
+      </section>
+
+      <section id="event-list">
+        <h2>이번 주 행사</h2>
+        <ul>
+          <li class="event" data-event-type="discount">파이썬 도서 10% 할인</li>
+          <li class="event" data-event-type="lecture">토요일 데이터 분석 특강</li>
+          <li class="event" data-event-type="gift">신규 가입자 에코백 증정</li>
+        </ul>
+      </section>
+
+      <section id="store-table">
+        <h2>매장 정보</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>지점</th>
+              <th>지역</th>
+              <th>영업 시간</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>강남점</td>
+              <td>서울</td>
+              <td>10:00 - 22:00</td>
+            </tr>
+            <tr>
+              <td>해운대점</td>
+              <td>부산</td>
+              <td>10:00 - 21:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>문의: <a href="mailto:study@example.com">study@example.com</a></p>
+    </footer>
+  </body>
+</html>
