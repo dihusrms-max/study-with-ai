@@ -1,0 +1,23 @@
+# Raw data and generated artifacts
+data/raw/*
+data/processed/*
+data/sample/*
+outputs/*
+logs/*
+.work/
+
+# Temporary document-generation files and archives
+.tmp_guide_*/
+.tmp_guide.zip
+data/open.zip
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example

@@ -1,0 +1,31 @@
+[project]
+name = "koneps-dacon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dihusrms", email = "dihusrms@gmail.com" }
+]
+requires-python = ">=3.12.13"
+dependencies = [
+    "numpy>=2.5.3",
+    "orjson>=3.12.0",
+    "pandas>=3.0.5",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9.1",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+koneps-dacon = "koneps_dacon:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "pytest>=9.1.1",
+    "ruff>=0.16.7",
+]
