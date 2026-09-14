@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="나의 취향을 골라 보는 8강 이상형 월드컵입니다." />
+    <title>Ideal World Cup | Karina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/ideal-worldcup.css" />
+    <script src="js/ideal-worldcup.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">← KARINA / PROFILE</a>
+      <span class="game-badge">STYLE MATCH</span>
+    </header>
+    <main class="worldcup-shell">
+      <section class="worldcup-intro" aria-labelledby="worldcup-title">
+        <p class="eyebrow">IDEAL TYPE / 8 MATCHES</p>
+        <h1 id="worldcup-title">나의 취향을<br /><span>골라 봐요.</span></h1>
+        <p>두 가지 매력 중 더 마음에 드는 카드를 선택하세요. 8강부터 결승까지, 나만의 이상형 스타일을 찾아봅니다.</p>
+      </section>
+      <section class="worldcup-card" aria-label="이상형 월드컵 게임">
+        <div class="match-header"><span id="round-label">8강</span><span id="match-count">1 / 4</span></div>
+        <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
+        <div class="matchup" id="matchup"></div>
+        <p class="match-hint" id="match-hint">더 마음에 드는 카드를 선택해 주세요.</p>
+      </section>
+      <section class="result-card" id="result-card" hidden aria-live="polite">
+        <p class="eyebrow">YOUR IDEAL TYPE</p>
+        <div class="winner-visual" id="winner-visual" aria-hidden="true"></div>
+        <h2 id="winner-title"></h2>
+        <p id="winner-description"></p>
+        <button id="restart" type="button">다시 해보기</button>
+      </section>
+    </main>
+  </body>
+</html>
