@@ -1,10 +1,12 @@
 # Raw data and generated artifacts
+open/
 data/raw/*
 data/processed/*
 data/sample/*
 outputs/*
 logs/*
 .work/
+*.zip
 
 # Temporary document-generation files and archives
 .tmp_guide_*/
