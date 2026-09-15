@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="나라장터 DACON AI 경진대회 진행 현황 다이어그램" />
+    <title>대회 진행 현황 | KONEPS DACON</title>
+    <link rel="stylesheet" href="css/contest-progress.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <header class="dashboard-header">
+        <div>
+          <p class="kicker">KONEPS DACON · CONTEST TRACKER</p>
+          <h1>대회 진행 현황</h1>
+          <p class="updated">저장소 기록 기준 · 2026년 9월 15일 업데이트</p>
+        </div>
+        <div class="completion" aria-label="4개 주요 단계 중 1개 완료">
+          <strong>1<span>/4</span></strong>
+          <small>주요 단계 완료</small>
+        </div>
+      </header>
+
+      <section class="status-strip" aria-label="진행 상태 요약">
+        <div><span class="dot complete"></span><strong>완료</strong><span>1</span></div>
+        <div><span class="dot active"></span><strong>진행 중</strong><span>1</span></div>
+        <div><span class="dot waiting"></span><strong>대기</strong><span>1</span></div>
+        <div><span class="dot planned"></span><strong>예정</strong><span>1</span></div>
+      </section>
+
+      <section class="diagram-panel" aria-labelledby="diagram-title">
+        <div class="panel-heading">
+          <div>
+            <p class="kicker">END-TO-END PIPELINE</p>
+            <h2 id="diagram-title">제출까지의 작업 흐름</h2>
+          </div>
+          <p class="legend-note">● 현재 확인된 상태를 기준으로 표시</p>
+        </div>
+
+        <div class="pipeline">
+          <article class="stage stage-complete">
+            <div class="stage-number">01</div><div class="stage-status">완료</div>
+            <h3>V0 기준선</h3><p>초기 제출과 기준 점수 확보</p>
+            <dl><div><dt>Macro F1</dt><dd>0.2137</dd></div><div><dt>실행 시간</dt><dd>38분 9초</dd></div></dl>
+          </article>
+          <div class="connector complete" aria-hidden="true">→</div>
+          <article class="stage stage-active">
+            <div class="stage-number">02</div><div class="stage-status">진행 중</div>
+            <h3>기준·규칙 검증</h3><p>v3·v4·v5·v10·v11·v14·v24 사례 검토</p>
+            <dl><div><dt>검토표</dt><dd>대기 항목 있음</dd></div><div><dt>결과</dt><dd>초안 작성</dd></div></dl>
+          </article>
+          <div class="connector" aria-hidden="true">→</div>
+          <article class="stage stage-waiting">
+            <div class="stage-number">03</div><div class="stage-status">대기</div>
+            <h3>Gemma 실행·평가</h3><p>환경 확인 후 dev 200건 추론</p>
+            <dl><div><dt>선행 조건</dt><dd>서버 접속 정보</dd></div><div><dt>평가</dt><dd>Macro F1 · FP/FN</dd></div></dl>
+          </article>
+          <div class="connector" aria-hidden="true">→</div>
+          <article class="stage stage-planned">
+            <div class="stage-number">04</div><div class="stage-status">예정</div>
+            <h3>최종 제출</h3><p>후보 비교 후 제출본 확정</p>
+            <dl><div><dt>리더보드</dt><dd>09.29 10:00</dd></div><div><dt>2차 자료</dt><dd>09.30–10.05</dd></div></dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="detail-grid" aria-label="현재 상태 및 다음 작업">
+        <article class="detail-card focus-card">
+          <p class="kicker">CURRENT FOCUS</p><h2>기준 검증을<br />마무리하세요</h2>
+          <p>사람 검토 항목을 완료한 뒤에야 Gemma 실행 결과와 규칙 후보를 비교할 수 있습니다.</p>
+          <div class="action-row"><span class="action-label">다음 작업</span><strong>검토 체크리스트 완료</strong></div>
+        </article>
+        <article class="detail-card">
+          <p class="kicker">MILESTONES</p>
+          <ul class="milestones"><li><span>팀 병합</span><strong>2026.09.23 23:59</strong></li><li><span>리더보드 제출</span><strong>2026.09.29 10:00</strong></li><li><span>2차 평가 자료</span><strong>09.30–10.05</strong></li></ul>
+        </article>
+        <article class="detail-card">
+          <p class="kicker">EVIDENCE</p>
+          <ul class="evidence-list"><li><code>outputs/submit_v0_baseline.zip</code><span>확인됨</span></li><li><code>logs/human_review_checklist_20260914.md</code><span>검토 대기</span></li><li><code>data/open.zip</code><span>확인됨</span></li></ul>
+        </article>
+      </section>
+      <footer>상태 정의: 완료 = 산출물 확인 · 진행 중 = 작업 기록 존재 · 대기 = 선행 조건 미충족 · 예정 = 후속 단계</footer>
+    </main>
+  </body>
+</html>
