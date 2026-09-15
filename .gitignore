@@ -11,6 +11,11 @@ logs/*
 # Temporary document-generation files and archives
 .tmp_guide_*/
 .tmp_guide.zip
+.tmp_user_code_test/
+.tmp_zip_verify/
+.tmp_gh_*
+.tmp_gh_install.log
+.tools/
 data/open.zip
 
 # Python environments and caches
