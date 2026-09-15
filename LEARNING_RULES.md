@@ -106,7 +106,7 @@ Codex에서 자유 학습·실습 → 중요한 내용만 Notion 일일 학습 �
 | 사용자 요청 | Markdown 원본 | 외부 반영 원칙 |
 | --- | --- | --- |
 | `노션용 기록해줘` | `notion/YYYY-MM-DD-주제.md` | 기본은 Markdown만 작성하며, `노션에 반영해줘` 또는 별도 승인 뒤에만 Notion에 추가한다. |
-| `Velog용 기록해줘` | `docs/velog-YYYY-MM-DD-주제.md` | Velog에 자동 게시하지 않고 복사·붙여넣기용 원고만 작성한다. |
+| `Velog용 기록해줘` | `velog/YYYY-MM-DD-주제.md` | Velog에 자동 게시하지 않고 복사·붙여넣기용 원고만 작성한다. |
 | `일일보고 기록해줘` | `notion/YYYY-MM-DD-daily-learning.md` | 새롭게 이해한 것·아직 애매하거나 복습할 것·직접 해본 것의 세 항목으로 작성한 뒤 승인 시 Notion에 반영한다. |
 | `주간 회고 기록해줘` | `notion/YYYY-MM-DD-weekly-review.md` | 주간 리뷰 초안을 작성한 뒤 승인 시 `캠프 Weekly Review`에 반영한다. |
 

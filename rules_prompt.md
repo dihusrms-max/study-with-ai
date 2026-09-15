@@ -399,7 +399,7 @@ ChatGPT는 질문에 답하는 것만 하지 않는다.
 먼저 프로젝트 안에 Markdown 원본을 작성한다.
 
 - 노션용 기록: `notion/YYYY-MM-DD-주제.md`
-- Velog용 기록: `docs/velog-YYYY-MM-DD-주제.md`
+- Velog용 기록: `velog/YYYY-MM-DD-주제.md`
 - 일일보고: `notion/YYYY-MM-DD-daily-learning.md`
 - 주간 회고: `notion/YYYY-MM-DD-weekly-review.md`
 
