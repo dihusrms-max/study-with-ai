@@ -21,3 +21,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# info_security
+*guide*
