@@ -1,0 +1,2 @@
+# No extra dependencies. Python stdlib plus server-provided vLLM only.
+# Do not override server-fixed vllm, torch, transformers, or xgrammar.
