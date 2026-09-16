@@ -1,7 +1,6 @@
 # 작업 시작 전 필수 확인
 
 작업 또는 답변 전에 프로젝트 루트와 작업 대상 폴더의 관련 지시 문서를 확인하고 따른다.
-
 학습 기록, Notion, Velog, 일일보고, 주간 회고와 관련된 요청에서는
 `rules_prompt.md`, `LEARNING_RULES.md` 및 관련 `.md` 문서를 반드시 확인한다.
 
@@ -26,7 +25,6 @@
 
 `Data_Inspector_Merge_Advisor_V0.1.md`를 Data Inspector & Merge Advisor 프로젝트의
 기능 명세 및 구현 기준 문서로 사용한다.
-
 이 규칙은 Data Inspector & Merge Advisor의 구현·데이터 결합 작업에 적용하며,
 단순 학습 질문이나 일회성 분석에는 필요한 부분만 선택적으로 적용한다.
 
