@@ -1,0 +1,19 @@
+# DACON Codex - low-friction, bounded automation
+# Windows location:
+#   %USERPROFILE%\.codex\config.toml
+
+approval_policy = "on-request"
+approvals_reviewer = "auto_review"
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+writable_roots = []
+network_access = false
+
+# writable_roots is only for ADDITIONAL paths outside the current workspace.
+# Example:
+# writable_roots = ["D:/DACON_RUNTIME_OUTPUTS"]
+
+# Optional trusted project example:
+# [projects."D:/YOUR_PATH/DACON_2026"]
+# trust_level = "trusted"

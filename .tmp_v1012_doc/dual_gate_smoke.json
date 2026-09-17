@@ -1,0 +1,34 @@
+{
+  "candidate": "P005",
+  "stage_size": 32,
+  "baseline_macro_f1": 0.2,
+  "candidate_macro_f1": 0.3,
+  "target": {
+    "f1_before": 0.2,
+    "f1_after": 0.3,
+    "fp_before": 16,
+    "fp_after": 5,
+    "fn_before": 3,
+    "fn_after": 3
+  },
+  "request_identity_match": true,
+  "stability_pass": true,
+  "non_target_harmful": false,
+  "json_ok": true,
+  "evidence_ok": true,
+  "expansion_fp": null,
+  "expansion_gold_positives": null,
+  "calibration": {
+    "positive_tp_before": 3,
+    "positive_tp_after": 3,
+    "positive_fn_before": 3,
+    "positive_fn_after": 3,
+    "hard_fp_before": 13,
+    "hard_fp_after": 5,
+    "hard_tn_before": 7,
+    "hard_tn_after": 15
+  },
+  "decision": "EXPAND",
+  "reason": "diagnostic_gate_passed",
+  "next_stage": 64
+}

@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "reason": "same_request_identity",
+  "repeats": 3,
+  "raw_response_hashes": [],
+  "parsed_response_hashes": [],
+  "raw_response_stable": null,
+  "parsed_response_stable": null,
+  "metadata": [
+    "C:\\study-contests\\.tmp_stability_cli\\run1.json",
+    "C:\\study-contests\\.tmp_stability_cli\\run2.json",
+    "C:\\study-contests\\.tmp_stability_cli\\run3.json"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "candidate": "P005-HYBRID-SAFE",
+  "stage_size": 32,
+  "baseline_macro_f1": 0.2347596984,
+  "candidate_macro_f1": 0.3636363636,
+  "target": {
+    "f1_before": 0.24,
+    "f1_after": 0.3636363636,
+    "fp_before": 16,
+    "fp_after": 12,
+    "fn_before": 3,
+    "fn_after": 2
+  },
+  "request_identity_match": true,
+  "stability_pass": true,
+  "non_target_harmful": true,
+  "json_ok": true,
+  "evidence_ok": true,
+  "decision": "REJECT",
+  "reason": "harmful_non_target_leakage",
+  "next_stage": null,
+  "stability_gate": {
+    "pass": true,
+    "reason": "same_request_identity",
+    "repeats": 3,
+    "raw_response_hashes": [
+      "sha256:0b4cd35607b124bc48d4db9dece4ff1349d78dac6b9b32a9a57a8638228323e3",
+      "sha256:f77f31165277a4dbdd3e0b2796432e38734075617bf1ea248608c5f3608c5cc6",
+      "sha256:e9e5c4e2f25ae14a6f8f220ce04577bcde39563c6a1f9a076427cde4a9174559"
+    ],
+    "parsed_response_hashes": [
+      "sha256:b7e14b4debd7fa682ce6bef9564501710ec46ab7b41eb763c22f228676448dd0",
+      "sha256:33984089a29a206138b69cc21b2f613d315f6fa212cbb44d4e7041314d645c28",
+      "sha256:76b2eab9e28c56ed0131576029272e4dd0a571aed307c06b959d749359d8dad0"
+    ],
+    "raw_response_stable": false,
+    "parsed_response_stable": false
+  }
+}

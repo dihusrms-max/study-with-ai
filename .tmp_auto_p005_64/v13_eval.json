@@ -1,0 +1,40 @@
+{
+  "summary_type": "v13_target12_comparison",
+  "run_id": "P005_AUTO_64_TARGET_ONLY",
+  "records": 64,
+  "target_item": "v13",
+  "baseline": {
+    "tp": 3,
+    "fp": 24,
+    "tn": 34,
+    "fn": 3
+  },
+  "candidate": {
+    "tp": 2,
+    "fp": 23,
+    "tn": 35,
+    "fn": 4
+  },
+  "f1": {
+    "baseline": 0.18181818181818182,
+    "candidate": 0.12903225806451613
+  },
+  "non_target_changed_cells": 0,
+  "non_target_official_improvement_cells": 0,
+  "non_target_official_worsening_cells": 0,
+  "changed_items": {
+    "v13": 12
+  },
+  "api_calls": 0,
+  "cache_hits": 64,
+  "retry_count": 0,
+  "invalid_json": 0,
+  "missing_items": 0,
+  "elapsed_seconds": 0.0,
+  "preflight": "PASS",
+  "gate": "hold_non_target_regression",
+  "contains_raw_ids": false,
+  "contains_source_text": false,
+  "contains_evidence": false,
+  "contains_api_key": false
+}

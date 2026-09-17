@@ -1,0 +1,31 @@
+{
+  "candidate": "P005",
+  "stage_size": 32,
+  "baseline_macro_f1": 0.2,
+  "candidate_macro_f1": 0.21,
+  "target": {
+    "f1_before": 0.2,
+    "f1_after": 0.3,
+    "fp_before": 10,
+    "fp_after": 11,
+    "fn_before": 3,
+    "fn_after": 2
+  },
+  "request_identity_match": true,
+  "stability_pass": true,
+  "non_target_harmful": false,
+  "json_ok": true,
+  "evidence_ok": true,
+  "decision": "EXPAND",
+  "reason": "diagnostic_gate_passed",
+  "next_stage": 64,
+  "stability_gate": {
+    "pass": true,
+    "reason": "same_request_identity",
+    "repeats": 3,
+    "raw_response_hashes": [],
+    "parsed_response_hashes": [],
+    "raw_response_stable": null,
+    "parsed_response_stable": null
+  }
+}

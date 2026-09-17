@@ -1,0 +1,24 @@
+{
+  "candidate": "P005-HYBRID-SAFE",
+  "stage_size": 64,
+  "baseline_macro_f1": 0.1818,
+  "candidate_macro_f1": 0.129,
+  "target": {
+    "f1_before": 0.1818,
+    "f1_after": 0.129,
+    "fp_before": 24,
+    "fp_after": 23,
+    "fn_before": 3,
+    "fn_after": 4
+  },
+  "request_identity_match": false,
+  "stability_pass": false,
+  "non_target_harmful": false,
+  "json_ok": true,
+  "evidence_ok": true,
+  "expansion_fp": 13,
+  "expansion_gold_positives": 0,
+  "decision": "HOLD",
+  "reason": "request_identity_mismatch",
+  "next_stage": null
+}

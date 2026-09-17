@@ -1,0 +1,30 @@
+{
+  "candidate_id": "P005-HYBRID-SAFE",
+  "mode": "offline_replay_only",
+  "enrichment": "all",
+  "records": 1,
+  "api_calls": 0,
+  "prompt_hash": "a5869f4e38cbe7248a0ddc728766d8cfbf1cc5f3b579616fa3bf137d7bc0db8a",
+  "law_available": true,
+  "catalog_available": false,
+  "qualification_found": 1,
+  "context_complete": 1,
+  "proposed_override": 0,
+  "applied_override": 0,
+  "trace_records": 1,
+  "failures": [],
+  "raw_ids_in_summary": false,
+  "source_text_in_summary": false,
+  "evidence_in_summary": false,
+  "api_key_in_summary": false,
+  "dataset_hash": "sha256:0e314fc99e4cedf67cd3433ae5e89b2e80624108faa936c0ce067fc29ad00165",
+  "document_order_hash": "sha256:137dde3013ddb2632a0f8422ed7f77cf189eede5a9953f957c20091954c64f0e",
+  "candidate_hash": "sha256:ab3362435d3ef3601017e8857c0ccccb95c8c3e193655ae253bfcec9ff6b5032",
+  "prompt_builder_version": "canonical-request-v1",
+  "actual_request_hash": "sha256:3331c53909f0b460f821bd52be6b7cb59ba867f3f779fb3251bf59e07735cfe7",
+  "model_id": "offline-replay",
+  "generation_config": {
+    "enrichment": "all",
+    "max_chars": 4000
+  }
+}

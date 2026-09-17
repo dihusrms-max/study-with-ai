@@ -1,0 +1,20 @@
+{
+  "candidate_id": "P005-HYBRID-SAFE",
+  "mode": "offline_replay_only",
+  "enrichment": "all",
+  "records": 32,
+  "api_calls": 0,
+  "prompt_hash": "393ce04e2cf6c337aec708ee0fd8ce12d2a2ad4ae0c616cdf69240de4536faf5",
+  "law_available": true,
+  "catalog_available": false,
+  "qualification_found": 32,
+  "context_complete": 32,
+  "proposed_override": 0,
+  "applied_override": 0,
+  "trace_records": 32,
+  "failures": [],
+  "raw_ids_in_summary": false,
+  "source_text_in_summary": false,
+  "evidence_in_summary": false,
+  "api_key_in_summary": false
+}
