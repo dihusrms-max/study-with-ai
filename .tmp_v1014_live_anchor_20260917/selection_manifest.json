@@ -1,0 +1,57 @@
+{
+  "purpose": "private_repeatability_case_set",
+  "selection_rule": "sorted IDs, v13 confusion-matrix quota TP=3 FP=3 TN=3 FN=1",
+  "source_files": {
+    "input": "C:\\study-contests\\.tmp_user_code_test\\v9_finalist64_pool_20260917\\input.jsonl.gz",
+    "labels": "C:\\study-contests\\.tmp_user_code_test\\dev_labels.csv",
+    "baseline": "C:\\study-contests\\.tmp_user_code_test\\gemma_baseline_dev200_current\\submission.csv"
+  },
+  "counts_available": {
+    "TP": 3,
+    "FP": 24,
+    "TN": 34,
+    "FN": 3
+  },
+  "selected": [
+    {
+      "id": "PPS-DEV-069",
+      "v13_class": "TP"
+    },
+    {
+      "id": "PPS-DEV-077",
+      "v13_class": "TP"
+    },
+    {
+      "id": "PPS-DEV-16",
+      "v13_class": "TP"
+    },
+    {
+      "id": "PPS-DEV-02",
+      "v13_class": "FP"
+    },
+    {
+      "id": "PPS-DEV-03",
+      "v13_class": "FP"
+    },
+    {
+      "id": "PPS-DEV-034",
+      "v13_class": "FP"
+    },
+    {
+      "id": "PPS-DEV-01",
+      "v13_class": "TN"
+    },
+    {
+      "id": "PPS-DEV-033",
+      "v13_class": "TN"
+    },
+    {
+      "id": "PPS-DEV-035",
+      "v13_class": "TN"
+    },
+    {
+      "id": "PPS-DEV-074",
+      "v13_class": "FN"
+    }
+  ]
+}

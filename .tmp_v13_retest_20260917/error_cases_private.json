@@ -1,0 +1,1544 @@
+{
+  "run_id": "P001R-20260916-dev200-current",
+  "rows": [
+    {
+      "id": "PPS-DEV-02",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-03",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-034",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-036",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-038",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-041",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-042",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-043",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-047",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-054",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-055",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-059",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-068",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-070",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-072",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-074",
+      "actual": 1,
+      "prediction": 0,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-075",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-076",
+      "actual": 1,
+      "prediction": 0,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-078",
+      "actual": 1,
+      "prediction": 0,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-079",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-08",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-080",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-084",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-086",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-087",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-09",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-092",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-093",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-094",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-095",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-096",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-098",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-101",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-106",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-107",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-108",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-112",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-116",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-117",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-118",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-12",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-120",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-121",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-124",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-125",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-128",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-129",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-130",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-133",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-135",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-136",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-137",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-138",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-139",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-142",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-144",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-148",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-150",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-152",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-153",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-155",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-160",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-161",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-165",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-168",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-169",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-170",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-173",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-174",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-175",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-180",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-182",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-19",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-190",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-192",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-193",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-194",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-199",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-200",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-22",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    },
+    {
+      "id": "PPS-DEV-26",
+      "actual": 0,
+      "prediction": 1,
+      "error_type": "needs_human_review",
+      "candidate_types": [
+        "적용 대상 오인",
+        "키워드 반응",
+        "필수조건 부족",
+        "권장·선택 오인",
+        "예외 누락",
+        "항목 혼동",
+        "문맥 오인",
+        "의미적 근거 부족",
+        "발췌 누락",
+        "판정 기준 불명확",
+        "기타"
+      ]
+    }
+  ]
+}

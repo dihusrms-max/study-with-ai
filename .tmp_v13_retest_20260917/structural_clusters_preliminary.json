@@ -1,0 +1,102 @@
+{
+  "status": "preliminary_only",
+  "semantic_classification": "pending_independent_review",
+  "fp_total": 23,
+  "counts": {
+    "exception_marker_present": 23
+  },
+  "rows": [
+    {
+      "case_hash": "b491a405f8686acdd68a60d146eaf7e393248ef48997ea4fe2a524a4b5d9a77c",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "8d082fa02b1418acf8da952d73596fcc44ab94238bf3b0b0a7c0c92b3b007dc1",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "bd7bdf2665012987cff0a4b085b59697a733d72ee652a98a2f0b02bc48f5cb11",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "d73b64f600b53805dd6f9aa33e7d7c4844d4b3f133a91f425623a64972b5198c",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "743d7ac0f7666c58c242674a83fed6ec31031e9078e2e676b7cae7ed34263399",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "8995156a6d2ffed685a2d10206f7b329fddd7f746d303c5dab91379b5609a680",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "554a386339408416b984b33195d8b6f4827063cfe6c0b877d0a323058fab14fb",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "c7d4f355b55109d89bf342f8bb642c6bfab6465ff078a8316c74ddf3848722da",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "4f632705fbebec7999e279b1ebead01d92186190fc98b55c696b74b4a038cbe3",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "c8d575f27906996b67d77d526d8242a5919f53850df4efb4c9a8c073f8d3544d",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "80a94bdce4ca6815dae021d2afb1b7afba5b007c974540e9368583a6be8309e9",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "9ab3a8fa8d2d66e7a7f28c59a7eeaeaa0ac95cbd98f99cace6f9b87ce017676e",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "1687882a65bf3a96eb5af0f8185a1d4f76b7859e37d3df8b8e2b9c9edafaf86f",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "8900578df2ecc0a8e86b37a1de4956d861d86f26b1f155e18039f613b35b7c79",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "deb435016d59d23f5524546bba4d1f7caf0e92e08c4573eb55a4c32c407c8515",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "65a170e4c78bad9e8957bf9c45ad00e935635efb106a0ea21b4bc0040fb94520",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "9d637da3a12dce8108cbaa10a29e6f8d55df025264b4509499422215bdb1fdc9",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "570dbd6ebb897b2dabbb1c22422a4325dde6f35aa361c4c208ae39e0b296668a",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "574ccb47df308b963755dd484add71cfb2f4826af115d4b2bbc78100cd65a06f",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "762ad19e4d307d4e17776e35002a02cf3d4ebcd37014593bcdce40d7fb11d981",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "f50c99c8049b325c9683450cb935bb5761128492445e8870d738963586372364",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "830ae060f3c30124def105f72d3033b4bb372c7a99bc1742f44b6c2dcea4bcca",
+      "structural_cluster": "exception_marker_present"
+    },
+    {
+      "case_hash": "59933759f660f52f242f361a7c70fbf04f0db2517fd92b886696ce0f160204dc",
+      "structural_cluster": "exception_marker_present"
+    }
+  ]
+}
