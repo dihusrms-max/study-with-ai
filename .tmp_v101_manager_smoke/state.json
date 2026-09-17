@@ -1,0 +1,18 @@
+{
+  "session_id": "local-dry-run",
+  "baseline_fingerprint": "smoke-baseline",
+  "candidate_queue": [
+    "P001-baseline"
+  ],
+  "completed_candidates": [],
+  "rejected_candidates": [],
+  "current_candidate": "P001-baseline",
+  "current_stage": "EXPAND_32",
+  "api_used": 0,
+  "cache_hits": 0,
+  "best_candidate": null,
+  "best_score": null,
+  "elapsed_time": 0.0,
+  "last_checkpoint": null,
+  "stop_reason": "api_execution_requires_human_approval"
+}

@@ -9,12 +9,15 @@ authors = [
 requires-python = ">=3.12.13"
 dependencies = [
     "bertopic>=0.17.4",
+    "chromadb>=1.5.9",
+    "ipykernel>=7.3.0",
     "kiwipiepy>=0.23.2",
     "numpy>=2.5.3",
     "openai>=3.14.0",
     "orjson>=3.12.0",
     "pandas>=3.0.5",
     "pyyaml>=6.0.3",
+    "qdrant-client>=1.19.1",
     "scikit-learn>=1.9.1",
     "sentence-transformers>=6.0.1",
     "tqdm>=4.70.1",
