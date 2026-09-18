@@ -15,6 +15,7 @@ dependencies = [
     "kiwipiepy>=0.23.2",
     "langchain>=1.4.1",
     "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
     "langchain-openai>=1.6.2",
     "langchain-text-splitters>=1.1.2",
     "matplotlib>=3.11.1",
