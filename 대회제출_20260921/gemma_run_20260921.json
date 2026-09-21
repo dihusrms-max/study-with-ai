@@ -1,0 +1,41 @@
+{
+  "run_id": "gemma-test-20260921",
+  "records": 10,
+  "api_calls": 10,
+  "cache_hits": 0,
+  "retry_count": 0,
+  "response_models": [
+    "gemma-4-26B-A4B-it"
+  ],
+  "model_requested": "gemma-4-26B-A4B-it",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_tokens": 1536,
+  "chunk": 4,
+  "concurrency": 4,
+  "timeout": 240,
+  "retries_allowed": 3,
+  "seed": null,
+  "invalid_json": 0,
+  "missing_items": 0,
+  "elapsed_seconds": 197.5,
+  "output": "C:\\study-with-ai\\대회제출_20260921\\gemma_submission_20260921.csv",
+  "raw_response_hash": "sha256:bc8430ec3c87fa2c9333893a8b24f9e001786d02fe32b21719384e60cab11443",
+  "parsed_response_hash": "sha256:96aab0f198323644887c4009eb29bec572ae8c31f76e368402414d7dd6424b5d",
+  "prediction_hash": "sha256:328445fbd08bea26a4cb766d98a3d27562a32e1c781a29a9feeb858be42c6f23",
+  "dataset_hash": "sha256:1d8337db8a6973452487bbd324557e8da0e7d204eed150914eb6f7a41c48e504",
+  "document_order_hash": "sha256:403c7f58bf3d0d9afd843b7e2e9c1a7ef5d04bffc6dc43c8d29c05d1f910f26c",
+  "candidate_hash": "sha256:3c027b222a64e845b9daa33913007e58e20d9ed452d56a839b868e0b8c1e01d0",
+  "code_commit_hash": "git:65d17e4d095b8f7cf6881c026fd3b486a1caab1d",
+  "prompt_builder_version": "canonical-request-v1",
+  "actual_request_hash": "sha256:0692b8654c2b3dfdcdbd8cbf413f4bb28adc0de93211aef7e80d45d7fe2897b1",
+  "model_id": "gemma-4-26B-A4B-it",
+  "generation_config": {
+    "chunk": 4,
+    "concurrency": 4,
+    "max_tokens": 1536,
+    "seed": null,
+    "temperature": 0.0,
+    "top_p": 1.0
+  }
+}
