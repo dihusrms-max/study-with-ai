@@ -1,0 +1,773 @@
+{
+  "teammate": {
+    "source": "C:\\Users\\Lee\\Downloads\\DACON_0921.zip",
+    "sha256": "feca63ba8da325c4f5da83d68f75b12bff4e4b5fb880172db1bc8dcde822d7b3",
+    "files": [
+      {
+        "path": "decision_support.py",
+        "archive_path": "decision_support.py",
+        "bytes": 28844,
+        "sha256": "8716fd82327ef28d289d330dc4d00cfaa92b6b8052da2aeab37c5b7823fff6af",
+        "imports": [
+          "from __future__ import annotations",
+          "from bisect import bisect_left",
+          "from dataclasses import dataclass",
+          "from datetime import datetime, date",
+          "from qualification_support import ProcurementSupport, qualification_spans",
+          "import re",
+          "import unicodedata"
+        ],
+        "definitions": [
+          {
+            "kind": "FunctionDef",
+            "name": "dense",
+            "line": 22
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "money",
+            "line": 26
+          },
+          {
+            "kind": "ClassDef",
+            "name": "Document",
+            "line": 52
+          },
+          {
+            "kind": "ClassDef",
+            "name": "DecisionSupport",
+            "line": 89
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__post_init__",
+            "line": 56
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "window",
+            "line": 61
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "quote",
+            "line": 77
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 90
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "analyze",
+            "line": 94
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "apply",
+            "line": 415
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "add",
+            "line": 114
+          }
+        ]
+      },
+      {
+        "path": "methodology_repair.py",
+        "archive_path": "methodology_repair.py",
+        "bytes": 832,
+        "sha256": "879154b64a6f5e3292849edad314fb29d71cdc50770daeaa962f27f939f47c6a",
+        "imports": [
+          "from pathlib import Path",
+          "import csv"
+        ],
+        "definitions": []
+      },
+      {
+        "path": "qualification_support.py",
+        "archive_path": "qualification_support.py",
+        "bytes": 23068,
+        "sha256": "9ca9fec7a943c7b57adb414dc0161f432c6fd1d32c5076a984872d08256ae38e",
+        "imports": [
+          "from __future__ import annotations",
+          "from bisect import bisect_left",
+          "import re"
+        ],
+        "definitions": [
+          {
+            "kind": "FunctionDef",
+            "name": "flat",
+            "line": 18
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "qualification_spans",
+            "line": 22
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "size_clauses",
+            "line": 42
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "task_context",
+            "line": 124
+          },
+          {
+            "kind": "ClassDef",
+            "name": "ProcurementSupport",
+            "line": 133
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 134
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "product",
+            "line": 137
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "analyze",
+            "line": 211
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "positive",
+            "line": 234
+          }
+        ]
+      },
+      {
+        "path": "README.md",
+        "archive_path": "README.md",
+        "bytes": 638,
+        "sha256": "4f438cd37d27e491b65a96bde5b95b8872bdee8c462074fb4dc7a4082664e4f1"
+      },
+      {
+        "path": "render_validation_report.py",
+        "archive_path": "render_validation_report.py",
+        "bytes": 1999,
+        "sha256": "83088dd99eb1befc3d7ab9f5ac7ab6973425eee5670a3b969883bd0dd34af52b",
+        "imports": [
+          "from pathlib import Path",
+          "import csv",
+          "import matplotlib.pyplot as plt"
+        ],
+        "definitions": [
+          {
+            "kind": "FunctionDef",
+            "name": "rows",
+            "line": 10
+          }
+        ]
+      },
+      {
+        "path": "response_protocol.py",
+        "archive_path": "response_protocol.py",
+        "bytes": 5951,
+        "sha256": "61734d8f2be4265a84a899b608804a04fa5df0dfffd6f5fcb4d99632d2d222ac",
+        "imports": [
+          "from __future__ import annotations",
+          "from dataclasses import dataclass",
+          "import json"
+        ],
+        "definitions": [
+          {
+            "kind": "ClassDef",
+            "name": "Generation",
+            "line": 21
+          },
+          {
+            "kind": "ClassDef",
+            "name": "ResponseError",
+            "line": 29
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "flag_schema",
+            "line": 33
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "_unique_object",
+            "line": 38
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "parse_flags",
+            "line": 47
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "normalize_generation",
+            "line": 64
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "read_decision",
+            "line": 74
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "completed_quotes",
+            "line": 92
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "infer_batch",
+            "line": 134
+          }
+        ]
+      },
+      {
+        "path": "run_api.py",
+        "archive_path": "run_api.py",
+        "bytes": 3757,
+        "sha256": "bfe6fd9e0c61a6051baee59e39d5b05acf6ff588fd1361b3ac3d9951edeeb475",
+        "imports": [
+          "from __future__ import annotations",
+          "from pathlib import Path",
+          "import argparse",
+          "import importlib.util",
+          "import inspect",
+          "import json",
+          "import os",
+          "import sys"
+        ],
+        "definitions": [
+          {
+            "kind": "FunctionDef",
+            "name": "load",
+            "line": 12
+          },
+          {
+            "kind": "ClassDef",
+            "name": "ApiAdapter",
+            "line": 20
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "main",
+            "line": 33
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 23
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "count_tokens",
+            "line": 25
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "chat",
+            "line": 27
+          }
+        ]
+      },
+      {
+        "path": "script.py",
+        "archive_path": "script.py",
+        "bytes": 53190,
+        "sha256": "f91a76b9241cbd654f8803e504bb741a07236eeefdcf103536ef4979f57d520d",
+        "imports": [
+          "from __future__ import annotations",
+          "from collections import Counter, defaultdict",
+          "from dataclasses import dataclass",
+          "from decision_support import DecisionSupport",
+          "from pathlib import Path",
+          "from response_protocol import COMPACT_OUTPUT, COMPACT_TOKENS, Generation, ResponseError, completed_quotes, flag_schema, infer_batch, read_decision",
+          "from vllm import LLM, SamplingParams",
+          "from vllm.sampling_params import StructuredOutputsParams",
+          "import argparse",
+          "import csv",
+          "import gzip",
+          "import hashlib",
+          "import io",
+          "import json",
+          "import math",
+          "import os",
+          "import re",
+          "import sys",
+          "import time",
+          "import unicodedata"
+        ],
+        "definitions": [
+          {
+            "kind": "FunctionDef",
+            "name": "nfc",
+            "line": 63
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "compact",
+            "line": 67
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "log",
+            "line": 71
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "resolve_child",
+            "line": 76
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "read_records",
+            "line": 88
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "chunks",
+            "line": 116
+          },
+          {
+            "kind": "ClassDef",
+            "name": "Span",
+            "line": 132
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "merge_spans",
+            "line": 138
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "render_spans",
+            "line": 149
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "span_chars",
+            "line": 162
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "group_scores",
+            "line": 166
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "priority_spans",
+            "line": 175
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "select_context",
+            "line": 210
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "search_terms",
+            "line": 274
+          },
+          {
+            "kind": "ClassDef",
+            "name": "LawIndex",
+            "line": 286
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "best_excerpt",
+            "line": 470
+          },
+          {
+            "kind": "ClassDef",
+            "name": "ProductCatalog",
+            "line": 488
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "build_system",
+            "line": 558
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "build_ultra_system",
+            "line": 574
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "compact_schema",
+            "line": 588
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "observation_note",
+            "line": 600
+          },
+          {
+            "kind": "ClassDef",
+            "name": "PromptBuilder",
+            "line": 611
+          },
+          {
+            "kind": "ClassDef",
+            "name": "VLLMRunner",
+            "line": 667
+          },
+          {
+            "kind": "ClassDef",
+            "name": "MockRunner",
+            "line": 734
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "parse_response",
+            "line": 748
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "whitespace_map",
+            "line": 786
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "exact_evidence",
+            "line": 795
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "make_row",
+            "line": 824
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "validate_rows",
+            "line": 833
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "write_result",
+            "line": 853
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "write_checkpoint",
+            "line": 876
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "run",
+            "line": 892
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "main",
+            "line": 985
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 289
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "ranked",
+            "line": 327
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "article",
+            "line": 348
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "essential_excerpts",
+            "line": 357
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "software_excerpt",
+            "line": 375
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "retrieve",
+            "line": 398
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 489
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "lookup",
+            "line": 499
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 612
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "build",
+            "line": 625
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 670
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "count_tokens",
+            "line": 690
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "parameters",
+            "line": 703
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "chat",
+            "line": 716
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "count_tokens",
+            "line": 738
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "chat",
+            "line": 742
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "add",
+            "line": 407
+          }
+        ]
+      },
+      {
+        "path": "자가라벨링_방법론_적용보고서.md",
+        "archive_path": "자가라벨링_방법론_적용보고서.md",
+        "bytes": 1676,
+        "sha256": "66f0bfeb4d5cbb331b422683a6621e1c0157feb2c0ff7dcff1da87feda685398"
+      }
+    ]
+  },
+  "mine": {
+    "source": "C:\\study-with-ai\\대회제출_20260921\\submit_v1_baseline.zip",
+    "sha256": "d205cb1bc6ddd58c9c99c9f888bc01982bfff29ce8f9223e9b1401b6a457370e",
+    "files": [
+      {
+        "path": "script.py",
+        "archive_path": "script.py",
+        "bytes": 25057,
+        "sha256": "941097e549e80d517e24e42528c1f7f9ca3d13802efc30b0c26315956217a506",
+        "imports": [
+          "from __future__ import annotations",
+          "from collections import Counter",
+          "from typing import Any, Dict, Iterator, List, Optional, Tuple",
+          "from vllm import LLM, SamplingParams",
+          "from vllm.sampling_params import StructuredOutputsParams",
+          "import argparse",
+          "import csv",
+          "import gzip",
+          "import io",
+          "import json",
+          "import os",
+          "import re",
+          "import sys",
+          "import time",
+          "import unicodedata",
+          "import vllm"
+        ],
+        "definitions": [
+          {
+            "kind": "FunctionDef",
+            "name": "log",
+            "line": 60
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "_open",
+            "line": 65
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "validate_record",
+            "line": 71
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "normalize",
+            "line": 94
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "iter_records",
+            "line": 103
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "full_text",
+            "line": 121
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "build_context",
+            "line": 126
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "format_meta",
+            "line": 160
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "item_table",
+            "line": 176
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "decode_schema",
+            "line": 183
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "build_system_prompt",
+            "line": 222
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "build_user_prompt",
+            "line": 232
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "build_messages",
+            "line": 240
+          },
+          {
+            "kind": "ClassDef",
+            "name": "VLLMRunner",
+            "line": 248
+          },
+          {
+            "kind": "ClassDef",
+            "name": "MockRunner",
+            "line": 285
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "fit_to_budget",
+            "line": 303
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "run_chunk",
+            "line": 314
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "extract_json",
+            "line": 334
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "parse_judgment",
+            "line": 352
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "clean_evidence",
+            "line": 378
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "postprocess",
+            "line": 390
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "to_row",
+            "line": 402
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "empty_row",
+            "line": 410
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "write_csv",
+            "line": 415
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "validate_csv",
+            "line": 424
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "run",
+            "line": 458
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "main",
+            "line": 522
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 251
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "count_tokens",
+            "line": 271
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "chat",
+            "line": 280
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "__init__",
+            "line": 289
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "count_tokens",
+            "line": 292
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "_one",
+            "line": 295
+          },
+          {
+            "kind": "FunctionDef",
+            "name": "chat",
+            "line": 299
+          }
+        ]
+      },
+      {
+        "path": "requirements.txt",
+        "archive_path": "requirements.txt",
+        "bytes": 276,
+        "sha256": "2f7ba47dd57d82936ac08b84db5d106cdedb1be3490a8730e1b6d489a6190a71"
+      }
+    ]
+  }
+}
