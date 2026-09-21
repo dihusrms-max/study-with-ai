@@ -1,0 +1,10 @@
+{
+  "summary_type": "P004_A_fast_target_set",
+  "records": 16,
+  "official_positive_all": 6,
+  "representative_fp": 8,
+  "representative_tn": 2,
+  "private_ids": true,
+  "contains_source_text": false,
+  "contains_evidence": false
+}

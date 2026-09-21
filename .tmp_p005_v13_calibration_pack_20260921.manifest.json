@@ -1,0 +1,51 @@
+{
+  "case_ids": [
+    "PPS-DEV-077",
+    "PPS-DEV-078",
+    "PPS-DEV-182",
+    "PPS-DEV-079",
+    "PPS-DEV-194",
+    "PPS-DEV-043",
+    "PPS-DEV-170",
+    "PPS-DEV-26",
+    "PPS-DEV-142",
+    "PPS-DEV-087",
+    "PPS-DEV-06",
+    "PPS-DEV-169",
+    "PPS-DEV-113",
+    "PPS-DEV-154",
+    "PPS-DEV-05",
+    "PPS-DEV-054",
+    "PPS-DEV-137",
+    "PPS-DEV-083",
+    "PPS-DEV-066",
+    "PPS-DEV-081"
+  ],
+  "records": 20,
+  "positive_guard": [
+    "PPS-DEV-077",
+    "PPS-DEV-078"
+  ],
+  "hard_negatives": [
+    "PPS-DEV-182",
+    "PPS-DEV-079",
+    "PPS-DEV-194",
+    "PPS-DEV-043",
+    "PPS-DEV-170",
+    "PPS-DEV-26",
+    "PPS-DEV-142",
+    "PPS-DEV-087",
+    "PPS-DEV-06",
+    "PPS-DEV-169"
+  ],
+  "safe_tn": [
+    "PPS-DEV-113",
+    "PPS-DEV-154",
+    "PPS-DEV-05",
+    "PPS-DEV-054",
+    "PPS-DEV-137",
+    "PPS-DEV-083",
+    "PPS-DEV-066",
+    "PPS-DEV-081"
+  ]
+}

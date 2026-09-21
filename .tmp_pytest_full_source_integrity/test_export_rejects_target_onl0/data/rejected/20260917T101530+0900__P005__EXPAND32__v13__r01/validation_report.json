@@ -1,0 +1,7 @@
+{
+  "run_id": "20260917T101530+0900__P005__EXPAND32__v13__r01",
+  "errors": [
+    "candidate_macro_f1 must be null unless evaluation_scope is ALL_24_ITEMS"
+  ],
+  "preflight": "FAIL"
+}

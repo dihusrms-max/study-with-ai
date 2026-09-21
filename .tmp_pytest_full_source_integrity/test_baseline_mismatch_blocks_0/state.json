@@ -1,0 +1,16 @@
+{
+  "session_id": "s1",
+  "baseline_fingerprint": "abc",
+  "candidate_queue": [],
+  "completed_candidates": [],
+  "rejected_candidates": [],
+  "current_candidate": null,
+  "current_stage": "INIT",
+  "api_used": 0,
+  "cache_hits": 0,
+  "best_candidate": null,
+  "best_score": null,
+  "elapsed_time": 0.0,
+  "last_checkpoint": null,
+  "stop_reason": null
+}

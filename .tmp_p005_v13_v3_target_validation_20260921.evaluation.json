@@ -1,0 +1,38 @@
+{
+  "summary_type": "v13_target12_comparison",
+  "run_id": "v10.1.6-v3-dev200-candidate-1",
+  "records": 0,
+  "target_item": "v13",
+  "baseline": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 0,
+    "fn": 0
+  },
+  "candidate": {
+    "tp": 0,
+    "fp": 0,
+    "tn": 0,
+    "fn": 0
+  },
+  "f1": {
+    "baseline": 0.0,
+    "candidate": 0.0
+  },
+  "non_target_changed_cells": 0,
+  "non_target_official_improvement_cells": 0,
+  "non_target_official_worsening_cells": 0,
+  "changed_items": {},
+  "api_calls": 200,
+  "cache_hits": 0,
+  "retry_count": 0,
+  "invalid_json": 0,
+  "missing_items": 0,
+  "elapsed_seconds": 1585.5,
+  "preflight": "PASS",
+  "gate": "hold_non_target_regression",
+  "contains_raw_ids": false,
+  "contains_source_text": false,
+  "contains_evidence": false,
+  "contains_api_key": false
+}

@@ -1,0 +1,25 @@
+{
+  "matrix": {
+    "manifest_type": "source_compatibility_matrix",
+    "source_count": 1,
+    "all_raw_integrity_pass": true,
+    "all_text_health_pass": true,
+    "promotion_ready": false,
+    "sources": [
+      {
+        "path": "C:\\study-contests\\.tmp_pytest_source_preflight\\test_preflight_persists_matrix0\\source.jsonl.gz",
+        "provenance": "C4",
+        "status": "SOURCE_PROVENANCE_UNRESOLVED",
+        "sha256": "sha256:2041a632d97bb6fb660dbe88046888c79d7e97d31acaee16d5c3caf664d75d07",
+        "row_count": 1
+      }
+    ]
+  },
+  "gate": {
+    "decision": "BLOCK",
+    "reasons": [
+      "SOURCE_PROVENANCE_OR_ALIGNMENT_UNRESOLVED"
+    ],
+    "source_count": 1
+  }
+}

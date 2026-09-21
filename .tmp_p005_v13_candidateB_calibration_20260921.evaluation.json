@@ -1,0 +1,50 @@
+{
+  "summary_type": "v13_target12_comparison",
+  "run_id": "P005-v13-candidateB-calibration-20260921",
+  "records": 20,
+  "target_item": "v13",
+  "baseline": {
+    "tp": 2,
+    "fp": 10,
+    "tn": 8,
+    "fn": 0
+  },
+  "candidate": {
+    "tp": 1,
+    "fp": 5,
+    "tn": 13,
+    "fn": 1
+  },
+  "f1": {
+    "baseline": 0.2857142857142857,
+    "candidate": 0.25
+  },
+  "non_target_changed_cells": 18,
+  "non_target_official_improvement_cells": 12,
+  "non_target_official_worsening_cells": 6,
+  "changed_items": {
+    "v2": 1,
+    "v3": 1,
+    "v5": 2,
+    "v12": 1,
+    "v13": 6,
+    "v15": 1,
+    "v17": 6,
+    "v21": 1,
+    "v22": 1,
+    "v23": 1,
+    "v24": 3
+  },
+  "api_calls": 20,
+  "cache_hits": 0,
+  "retry_count": 0,
+  "invalid_json": 0,
+  "missing_items": 0,
+  "elapsed_seconds": 173.1,
+  "preflight": "PASS",
+  "gate": "hold_non_target_regression",
+  "contains_raw_ids": false,
+  "contains_source_text": false,
+  "contains_evidence": false,
+  "contains_api_key": false
+}

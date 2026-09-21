@@ -1,0 +1,2 @@
+run_id,item,support,tp,fp,tn,fn,precision,recall,f1,baseline_f1,delta_f1,absence_detected
+20260917T101530+0900__P005__EXPAND32__v13__r01,v13,6,4,7,19,2,0.36363636363636365,0.6666666666666666,0.47058823529411764,0.24,0.23058823529411762,false

@@ -1,0 +1,287 @@
+{
+  "summary_type": "single_pc_v8_counterfactual_audit",
+  "records": 200,
+  "items": 24,
+  "bootstrap_audit": {
+    "document_level_pairing": true,
+    "shared_resample_index": true,
+    "item_reaggregation": true,
+    "zero_denominator_defined": true
+  },
+  "transition_audit": {
+    "fp_to_tn_and_fn_to_tp_direction_checked": true,
+    "tp_to_fn_regression_direction_checked": true,
+    "non_target_isolation_required": true
+  },
+  "item_headroom_rank": [
+    {
+      "item": "v10",
+      "tp": 0,
+      "fp": 2,
+      "fn": 7,
+      "tn": 191,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 9
+    },
+    {
+      "item": "v11",
+      "tp": 0,
+      "fp": 2,
+      "fn": 6,
+      "tn": 192,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 8
+    },
+    {
+      "item": "v14",
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "tn": 192,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 8
+    },
+    {
+      "item": "v18",
+      "tp": 0,
+      "fp": 1,
+      "fn": 7,
+      "tn": 192,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 8
+    },
+    {
+      "item": "v6",
+      "tp": 0,
+      "fp": 1,
+      "fn": 6,
+      "tn": 193,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 7
+    },
+    {
+      "item": "v8",
+      "tp": 0,
+      "fp": 0,
+      "fn": 6,
+      "tn": 194,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 6
+    },
+    {
+      "item": "v12",
+      "tp": 0,
+      "fp": 0,
+      "fn": 6,
+      "tn": 194,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 6
+    },
+    {
+      "item": "v20",
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "tn": 195,
+      "f1": 0.0,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 1.0,
+      "residual_priority": 5
+    },
+    {
+      "item": "v17",
+      "tp": 1,
+      "fp": 51,
+      "fn": 5,
+      "tn": 143,
+      "f1": 0.034483,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.965517,
+      "residual_priority": 56
+    },
+    {
+      "item": "v13",
+      "tp": 3,
+      "fp": 78,
+      "fn": 3,
+      "tn": 116,
+      "f1": 0.068966,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.931034,
+      "residual_priority": 81
+    },
+    {
+      "item": "v24",
+      "tp": 3,
+      "fp": 35,
+      "fn": 5,
+      "tn": 157,
+      "f1": 0.130435,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.869565,
+      "residual_priority": 40
+    },
+    {
+      "item": "v21",
+      "tp": 3,
+      "fp": 22,
+      "fn": 3,
+      "tn": 172,
+      "f1": 0.193548,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.806452,
+      "residual_priority": 25
+    },
+    {
+      "item": "v23",
+      "tp": 1,
+      "fp": 4,
+      "fn": 4,
+      "tn": 191,
+      "f1": 0.2,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.8,
+      "residual_priority": 8
+    },
+    {
+      "item": "v9",
+      "tp": 1,
+      "fp": 2,
+      "fn": 5,
+      "tn": 192,
+      "f1": 0.222222,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.777778,
+      "residual_priority": 7
+    },
+    {
+      "item": "v2",
+      "tp": 1,
+      "fp": 0,
+      "fn": 6,
+      "tn": 193,
+      "f1": 0.25,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.75,
+      "residual_priority": 6
+    },
+    {
+      "item": "v4",
+      "tp": 1,
+      "fp": 1,
+      "fn": 5,
+      "tn": 193,
+      "f1": 0.25,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.75,
+      "residual_priority": 6
+    },
+    {
+      "item": "v15",
+      "tp": 2,
+      "fp": 7,
+      "fn": 4,
+      "tn": 187,
+      "f1": 0.266667,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.733333,
+      "residual_priority": 11
+    },
+    {
+      "item": "v16",
+      "tp": 1,
+      "fp": 0,
+      "fn": 5,
+      "tn": 194,
+      "f1": 0.285714,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.714286,
+      "residual_priority": 5
+    },
+    {
+      "item": "v7",
+      "tp": 2,
+      "fp": 0,
+      "fn": 5,
+      "tn": 193,
+      "f1": 0.444444,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.555556,
+      "residual_priority": 5
+    },
+    {
+      "item": "v19",
+      "tp": 5,
+      "fp": 9,
+      "fn": 1,
+      "tn": 185,
+      "f1": 0.5,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.5,
+      "residual_priority": 10
+    },
+    {
+      "item": "v5",
+      "tp": 5,
+      "fp": 7,
+      "fn": 2,
+      "tn": 186,
+      "f1": 0.526316,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.473684,
+      "residual_priority": 9
+    },
+    {
+      "item": "v3",
+      "tp": 7,
+      "fp": 6,
+      "fn": 1,
+      "tn": 186,
+      "f1": 0.666667,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.333333,
+      "residual_priority": 7
+    },
+    {
+      "item": "v1",
+      "tp": 6,
+      "fp": 4,
+      "fn": 1,
+      "tn": 189,
+      "f1": 0.705882,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.294118,
+      "residual_priority": 5
+    },
+    {
+      "item": "v22",
+      "tp": 4,
+      "fp": 0,
+      "fn": 1,
+      "tn": 195,
+      "f1": 0.888889,
+      "oracle_f1": 1.0,
+      "oracle_headroom": 0.111111,
+      "residual_priority": 1
+    }
+  ],
+  "total_oracle_headroom": 18.365767,
+  "api_calls": 0,
+  "raw_ids_in_summary": false,
+  "source_text_in_summary": false,
+  "api_key_in_summary": false
+}

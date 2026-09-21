@@ -1,0 +1,10 @@
+{
+  "summary_type": "v13_target_validation_plan",
+  "records": 26,
+  "actual_positive": 6,
+  "representative_fp": 12,
+  "representative_tn": 8,
+  "private_ids": true,
+  "contains_source_text": false,
+  "contains_evidence": false
+}

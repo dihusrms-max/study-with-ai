@@ -1,0 +1,26 @@
+{
+  "purpose": "private_P004_A_fast_target_set",
+  "records": 16,
+  "official_positive_all": 6,
+  "current_tp_and_fn": "included in official positives",
+  "representative_fp": 8,
+  "representative_tn": 2,
+  "ids": [
+    "PPS-DEV-069",
+    "PPS-DEV-074",
+    "PPS-DEV-076",
+    "PPS-DEV-077",
+    "PPS-DEV-078",
+    "PPS-DEV-16",
+    "PPS-DEV-03",
+    "PPS-DEV-034",
+    "PPS-DEV-036",
+    "PPS-DEV-038",
+    "PPS-DEV-040",
+    "PPS-DEV-041",
+    "PPS-DEV-042",
+    "PPS-DEV-043",
+    "PPS-DEV-01",
+    "PPS-DEV-02"
+  ]
+}
