@@ -1,0 +1,555 @@
+{
+  "manifest_type": "gemma_review_triage",
+  "case_count": 68,
+  "status_counts": {
+    "AUTO_CANDIDATE_EXACT": 25,
+    "ABSTAIN_HUMAN_REVIEW": 43
+  },
+  "auto_apply": false,
+  "cases": [
+    {
+      "document_id": "PPS-DEV-033",
+      "item": "v17",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "다.「중소기업제품 구매촉진 및 판로지원에 관한 법률」 제8조 및 동법 시행령 제9조의 요건을 갖춘 중소기업자",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-033",
+      "item": "v19",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "1-4) 제조회사 공급 증명원 및 A/S 확약서 각 1부",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-034",
+      "item": "v19",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "납품(공급)업체의 경우, 해당 물품 제조사의 물품공급 및 지원(A/S)확약서를 입찰전까지 보유 및 제출하여야 합니다.",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-035",
+      "item": "v1",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "다. 본 입찰은 4년제 대학교만 참여 가능",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-035",
+      "item": "v17",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "제한경쟁(소기업)",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-035",
+      "item": "v19",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "마. 납품(공급)업체의 경우 전자입찰서 제출 마감일 전일까지 제조사로부터 당해 물품공급 및 무상지원(A/S) 확약서를 발급후 보유 및 제출하여야 합니다.",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-036",
+      "item": "v15",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-036",
+      "item": "v19",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-037",
+      "item": "v19",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "공급업체는 당해 물품 제조사의 물품공급 및 기술지원(A/S) 확약서를 전자입찰서 제출 마감일 전일까지 보유하여야 하며, 낙찰통보 이전에 반드시 제출하여야 합니다.",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-042",
+      "item": "v4",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-042",
+      "item": "v8",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-042",
+      "item": "v17",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-045",
+      "item": "v5",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "입찰 공고일 전일(단, 신규사업자인 경우 입찰공고일 이후를 포함)부터 입찰일까지(낙찰자는 계약체결일까지) 주된 영업소의 소재지가 경기도인 업체",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-045",
+      "item": "v14",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-046",
+      "item": "v1",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "4) 전국 모든 광역단체에 골재기계 수리 센터가 있는 업체",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-046",
+      "item": "v5",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-047",
+      "item": "v5",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "마. 입찰공고일 기준 법인등기부등본(개인사업자는 사업등록증명원) 상 주된 사무소 소재지가 서울특별시로 기재되어 있는 업체",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-047",
+      "item": "v14",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-048",
+      "item": "v5",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "다. 공고일 기준 부가가치세법에 따른 이벤트행사대행업으로 당해 사업에 관한 사업자등록증을 갖춘 경북에 소재한 실적이 우수한 업체.",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-048",
+      "item": "v8",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-049",
+      "item": "v1",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "라. 체육교육학 전공이 있는 [기관(대학)]만 입찰 참여 가능합니다.",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-049",
+      "item": "v5",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-049",
+      "item": "v12",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-049",
+      "item": "v14",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-049",
+      "item": "v21",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-049",
+      "item": "v24",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-050",
+      "item": "v9",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-051",
+      "item": "v9",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-051",
+      "item": "v14",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-052",
+      "item": "v9",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-052",
+      "item": "v14",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-053",
+      "item": "v12",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-053",
+      "item": "v17",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-054",
+      "item": "v8",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-054",
+      "item": "v12",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-054",
+      "item": "v14",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-055",
+      "item": "v15",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-055",
+      "item": "v21",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-055",
+      "item": "v24",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "사업금액 : 총 188,000,000원(부가가치세 포함)",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-056",
+      "item": "v12",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-056",
+      "item": "v21",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-057",
+      "item": "v5",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "라. 입찰공고일 기준 법인등기부등본(개인사업자는 사업등록증명원) 상 주된 사무소 소재지가 경기도로 기재되어 있는 업체",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-057",
+      "item": "v12",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-057",
+      "item": "v14",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-057",
+      "item": "v24",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "기타기관 인쇄회로기판 코팅머신 구매(일반경쟁·1억원미만)",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-058",
+      "item": "v1",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "형태분류학, 계통학의 전문적인 지식 및 논문 출판 경험이 풍부하며, 생물자원 조사․발굴 등 관련분야 연구용역을 수행한 경험이 있는 대학교, [기관(공공기관)], 국공립연구기관 가능",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-058",
+      "item": "v21",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "구성원별 계약참여 최소 지분율은 5%이상으로 하여야 함",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-059",
+      "item": "v21",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "공동이행 방식으로 공동수급체 구성하여 입찰 참여 가능하며 업체별 최소 지분율은 2% 이상, 구성원 수는 5인 이하이어야 합니다.",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-061",
+      "item": "v6",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "3. 지방자치단체를 당사자로 하는 계약에 관한 법률 시행령제31조 및 동법 시행령 제92조에 의한 부정당업체로 제재를 받지 않은 경기도 [지역:r1|단위=기초|광역=경기도] 지역 업체",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-062",
+      "item": "v24",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-063",
+      "item": "v1",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-066",
+      "item": "v6",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-069",
+      "item": "v13",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "「중소기업기본법」 제2조제2항에 따른 소기업자, 「소상공인기본법」 제2조에 따른 소상공인, 「벤처기업육성에 관한 특별조치법」 제2조제1항에 따른 벤처기업 또는 「중소기업창업 지원법」 제2조제2호에 따른 창업자",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-070",
+      "item": "v6",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-071",
+      "item": "v6",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-071",
+      "item": "v8",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-071",
+      "item": "v24",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-072",
+      "item": "v1",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-072",
+      "item": "v6",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-072",
+      "item": "v24",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-073",
+      "item": "v17",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "「중소기업기본법」 제2조 제2항에 따른 중소기업 또는 「소상공인기본법」 제2조에 따른 소상공인으로서 「중소기업 범위 및 확인에 관한 규정」에 따라 발급된 중소기업·소상공인 확인서를 소지한 자",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-074",
+      "item": "v13",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-076",
+      "item": "v13",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "「중소기업기본법」제2조에 따른 중소기업 또는「소상공인 보호 및 지원에 관한 법률」제2조에 따른 소상공인으로서「중소기업 범위 및 확인에 관한 규정」에 따라 발급된 소기업·소상공인 확인서를 소지한 업체",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-077",
+      "item": "v13",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "소기업 ․ 소상공인확인서(중소기업현황 정보시스템 발급 또는 지방중소기업청 발급)를 소지한 업체이면서",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-078",
+      "item": "v13",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "「중소기업기본법」제2조에 따른 소기업자 또는「소상공인 보호 및 지원에 관 한 법률」제2조에 따른 소상공인으로서「중소기업 범위 및 확인에 관한 규정」에 따라 발급된 소기업·소상공인 확인서(계약체결일까지 발급된 것으로 유효기간 내에 있어야 함)를 소지한 업체",
+      "status": "AUTO_CANDIDATE_EXACT"
+    },
+    {
+      "document_id": "PPS-DEV-079",
+      "item": "v15",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-079",
+      "item": "v24",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "",
+      "status": "ABSTAIN_HUMAN_REVIEW"
+    },
+    {
+      "document_id": "PPS-DEV-080",
+      "item": "v15",
+      "original_label": "1",
+      "gemma_label": "1",
+      "gemma_evidence": "단,「중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령」제2조의3(중소기업자와의 우선조달계약에 대한 예외)에 따라 본 사업은 중소기업자 또는 소상공인 여부와 관계 없이 입찰참가자격조건을 만족할 경우 비영리법인도 참가 가능",
+      "status": "AUTO_CANDIDATE_EXACT"
+    }
+  ]
+}

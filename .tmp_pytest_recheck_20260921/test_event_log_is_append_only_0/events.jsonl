@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-21T05:33:42.258471+00:00", "event": "SESSION_STARTED", "session_id": "s1", "stage": "INIT", "baseline_fingerprint": "abc", "api_used": 0, "cache_hits": 0}
+{"timestamp": "2026-09-21T05:33:42.260469+00:00", "event": "CHECKPOINT_WRITTEN", "session_id": "s1", "stage": "INIT", "baseline_fingerprint": "abc", "api_used": 0, "cache_hits": 0, "checkpoint": "state.json"}
