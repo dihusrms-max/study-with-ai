@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "items": {
+    "v8": {
+      "name": "중복제한",
+      "required_conditions": ["지역제한 존재", "실적제한 존재"],
+      "evidence_requirements": ["지역제한 근거", "실적제한 근거"]
+    },
+    "v24": {
+      "name": "등록정보 불일치",
+      "required_conditions": ["조달 등록정보 확인", "공고문 정보 확인", "두 정보의 불일치 확인"],
+      "evidence_requirements": ["등록정보 근거", "공고문 근거", "불일치 근거"]
+    }
+  }
+}
