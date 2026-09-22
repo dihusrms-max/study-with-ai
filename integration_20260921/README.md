@@ -1,5 +1,8 @@
 # 2026-09-21 팀원·사용자 코드 결합 준비
 
+> 최신 결과(2026-09-22): v2 저장 결함 수정 및 Gemma API 12건 진단 완료. API 오류·복구 재시도 0건, 로컬 정답 대비 TP 14/FP 1/FN 0, 근거 누락 6개로 200건 실제 모델 확대 보류. [시험 보고서](GEMMA_PILOT_REPORT_20260922.md), [v2 실행 안내](candidate_v2/README.md), [v2 ZIP](dist/submit_integrated_v2_candidate_20260922.zip).
+
+
 상태: **통합 후보 v1 구현 완료. 단위 테스트 12개와 C/D/E 각 200건 mock 검증 통과. 실제 모델 성능은 미검증.**
 
 통합 코드는 `candidate/`, 실행 안내는 `candidate/README.md`에 있습니다. 아래 비교와 계획은 최초 준비 시점의 기록입니다.

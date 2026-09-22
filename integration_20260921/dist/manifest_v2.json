@@ -1,0 +1,61 @@
+{
+  "status": "CANDIDATE_PILOT_ONLY_NOT_SUBMISSION_VALIDATED",
+  "files": {
+    "script.py": {
+      "bytes": 4256,
+      "sha256": "e548985a42e4b8116732f530a6928377fabfd795263980711d824cb92d0c14ae"
+    },
+    "pipeline.py": {
+      "bytes": 9959,
+      "sha256": "8d7e0b13031bf773d7a03ea02a5d4d88be92690abbd0073fffd5392282176fa0"
+    },
+    "baseline_core.py": {
+      "bytes": 25057,
+      "sha256": "941097e549e80d517e24e42528c1f7f9ca3d13802efc30b0c26315956217a506"
+    },
+    "retrieval_core.py": {
+      "bytes": 46201,
+      "sha256": "2ec02137cbec69e46794f0304f73c6fc8be44197a4a3cf5546c27c5c066c44de"
+    },
+    "response_protocol.py": {
+      "bytes": 5951,
+      "sha256": "61734d8f2be4265a84a899b608804a04fa5df0dfffd6f5fcb4d99632d2d222ac"
+    },
+    "decision_support.py": {
+      "bytes": 28844,
+      "sha256": "8716fd82327ef28d289d330dc4d00cfaa92b6b8052da2aeab37c5b7823fff6af"
+    },
+    "qualification_support.py": {
+      "bytes": 23068,
+      "sha256": "9ca9fec7a943c7b57adb414dc0161f432c6fd1d32c5076a984872d08256ae38e"
+    },
+    "requirements.txt": {
+      "bytes": 276,
+      "sha256": "2f7ba47dd57d82936ac08b84db5d106cdedb1be3490a8730e1b6d489a6190a71"
+    },
+    "README.md": {
+      "bytes": 6720,
+      "sha256": "a60d3ab0deb8a2e48c5039e5e45c0ce4900efffba2c43b341730f26c26272e58"
+    }
+  },
+  "source_zips": {
+    "teammate": "feca63ba8da325c4f5da83d68f75b12bff4e4b5fb880172db1bc8dcde822d7b3",
+    "mine": "d205cb1bc6ddd58c9c99c9f888bc01982bfff29ce8f9223e9b1401b6a457370e"
+  },
+  "validation": {
+    "summary": "C:\\study-contests\\integration_20260921\\validation\\candidate_v2_20260922_090230_643710\\summary.json"
+  },
+  "api_pilot": {
+    "summary": "C:\\study-contests\\integration_20260921\\validation\\gemma_pilot_20260922_090207\\pilot_summary.json"
+  },
+  "package_validation": {
+    "rows": 3,
+    "columns": 49,
+    "positives": 0,
+    "format": "PASS",
+    "isolated_execution": "PASS",
+    "resume": "PASS"
+  },
+  "zip_sha256": "550595f5177f9766d3d8ddf0180bafdac24cbeb01945ec199218335da0d0fa9d",
+  "zip_bytes": 54644
+}
