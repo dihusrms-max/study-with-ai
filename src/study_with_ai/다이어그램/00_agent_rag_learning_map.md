@@ -32,11 +32,11 @@ flowchart LR
 
     AGENT --> ANSWER["최종 답변"]
 
-    classDef user fill:#E8F1FB,stroke:#2563EB
-    classDef agent fill:#F5F3FF,stroke:#7C3AED
-    classDef search fill:#FFF7ED,stroke:#EA580C
-    classDef data fill:#ECFDF5,stroke:#059669
-    classDef result fill:#FDF2F8,stroke:#DB2777
+    classDef user fill:#E8F1FB,stroke:#2563EB,color:#111827,font-weight:bold
+    classDef agent fill:#F5F3FF,stroke:#7C3AED,color:#111827,font-weight:bold
+    classDef search fill:#FFF7ED,stroke:#EA580C,color:#111827,font-weight:bold
+    classDef data fill:#ECFDF5,stroke:#059669,color:#111827,font-weight:bold
+    classDef result fill:#FDF2F8,stroke:#DB2777,color:#111827,font-weight:bold
 
     class USER user
     class AGENT agent
@@ -569,4 +569,80 @@ search_by_field를 두 분야에 대해 실행
 목차별 다이어그램 = 개념 교재
 실험 코드 = 파라미터 학습 도구
 디버깅 흐름 = 문제 해결 지도
+```
+
+## 15. 사용자부터 데이터까지 전체 설계도
+
+```mermaid
+flowchart TD
+    USER["사용자\n질문 입력"] --> ASK["ask(question, field)"]
+    ASK --> INPUT["input_data\nquestion, field, history"]
+    INPUT --> VALIDATE{"입력 검증"}
+    VALIDATE -->|"실패"| INPUT_ERROR["입력 오류"]
+    VALIDATE -->|"성공"| QUERY_EMBED["질문 임베딩"]
+
+    subgraph DATABASE["PostgreSQL 데이터 계층"]
+        DOC["FAQ Document"] --> CONTENT["page_content"]
+        DOC --> META["metadata\nfield, title"]
+        CONTENT --> VECTOR["Embedding Vector"]
+        VECTOR --> FAQ_TABLE["faq 테이블"]
+        META --> FAQ_TABLE
+    end
+
+    QUERY_EMBED --> SEARCH["retriever.invoke(\nquestion, filter)"]
+    SEARCH --> FILTER["metadata field 필터"]
+    FILTER --> FAQ_TABLE
+    FAQ_TABLE --> DOCS["list[Document]"]
+    DOCS --> EMPTY{"검색 결과 존재?"}
+    EMPTY -->|"없음"| NO_RESULT["관련 문서를 찾지 못했습니다."]
+    EMPTY -->|"있음"| FORMAT["format_docs(docs)"]
+    FORMAT --> CONTEXT["context: str"]
+
+    INPUT --> PROMPT["ChatPromptTemplate"]
+    CONTEXT --> PROMPT
+    PROMPT --> MODEL["GPT-6-luna\nopenai:gpt-6-luna"]
+    MODEL --> PARSER["StrOutputParser.invoke()"]
+    PARSER --> ANSWER["최종 답변: str"]
+
+    INPUT --> HISTORY["PostgresChatMessageHistory"]
+    ANSWER --> HISTORY
+    HISTORY --> SAVE_HISTORY["add_messages(\nHumanMessage, AIMessage)"]
+    SAVE_HISTORY --> HISTORY_TABLE["chat_history 테이블"]
+
+    ANSWER --> SAVE_CSV["save_faq_to_csv(\nquestion, field, answer)"]
+    SAVE_CSV --> CSV_FILE["faq_search_results.csv"]
+    CSV_FILE --> VERIFY["verify_csv_saved(\ncsv_path, question)"]
+    VERIFY --> FINAL["처리 완료"]
+```
+
+### 함수와 메서드 계약
+
+| 구분 | 이름 | 주요 인자 | 반환값 | 역할 |
+|---|---|---|---|---|
+| 함수 | `ask()` | `question: str`, `field: str` | `dict` | 사용자 요청 시작 |
+| 클래스 메서드 | `PGEngine.from_connection_string()` | `url: str` | `PGEngine` | PostgreSQL 연결 |
+| 클래스 메서드 | `PGVectorStore.create_sync()` | `engine`, `table_name`, `embedding_service`, `id_column`, `metadata_columns` | `PGVectorStore` | 벡터 저장소 생성 |
+| 메서드 | `retriever.invoke()` | `question: str`, `filter: dict` | `list[Document]` | 조건부 문서 검색 |
+| 함수 | `format_docs()` | `docs: list[Document]` | `str` | 문서를 context로 변환 |
+| 메서드 | `prompt.invoke()` | `question`, `context`, `history` | `PromptValue` | LLM 입력 구성 |
+| 메서드 | `model.invoke()` | `PromptValue` | `AIMessage` | GPT-6-luna 답변 생성 |
+| 메서드 | `StrOutputParser.invoke()` | `AIMessage` | `str` | 답변 문자열 추출 |
+| 메서드 | `history.add_messages()` | `HumanMessage`, `AIMessage` | `None` | 대화 이력 저장 |
+| 함수 | `save_faq_to_csv()` | `question`, `field`, `answer` | `csv_path` | 답변 파일 저장 |
+| 함수 | `verify_csv_saved()` | `csv_path`, `question` | `bool` | CSV 저장 결과 검증 |
+
+### 데이터 흐름 요약
+
+```text
+사용자 질문
+→ input_data
+→ 질문 임베딩
+→ PostgreSQL faq 검색
+→ list[Document]
+→ format_docs()
+→ context
+→ GPT-6-luna
+→ answer
+→ 대화 이력 저장
+→ CSV 저장·검증
 ```
