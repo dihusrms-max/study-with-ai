@@ -4,12 +4,12 @@
 
 ### 1. RAG의 질문 처리 흐름
 
-오늘은 `RunnableParallel`을 중심으로 질문, 분야 필터, 대화 이력을 분리해 처리한 뒤 검색 결과를 `context`로 만들고 LLM 응답으로 연결하는 구조를 정리했다.
+LangChain RAG 실습 자료를 바탕으로 질문, 분야 필터, 대화 이력을 나누어 준비하고 검색 결과를 프롬프트의 `context`로 연결하는 흐름을 정리했다.
 
 ```text
 input_data(question, field, history)
 → RunnableParallel
-→ Retriever 검색 + field metadata 필터
+→ Retriever 검색 및 field metadata 필터
 → Document 목록
 → format_docs(context 문자열)
 → 질문·context·history 프롬프트
@@ -18,59 +18,58 @@ input_data(question, field, history)
 → 최종 답변
 ```
 
-`question`은 검색과 프롬프트에 사용되고, `field`는 metadata 필터에 사용되며, `history`는 이전 대화 맥락을 보완한다. 검색 결과의 본문은 `page_content`, 출처·분야·제목 같은 부가정보는 `metadata`에서 관리한다.
+`question`은 검색과 프롬프트에, `field`는 metadata 필터에, `history`는 이전 대화 맥락에 사용된다. 문서 본문은 `page_content`에, 제목·분야·출처 같은 부가정보는 `metadata`에 둔다. 이 구조를 따르면 검색, 프롬프트 구성, 답변 생성을 각 단계로 나누어 살펴볼 수 있다.
 
-### 2. PostgreSQL과 pgvector를 이용한 RAG 구성
+### 2. 벡터 검색 구성요소의 역할
 
-- `OpenAIEmbeddings`가 텍스트를 벡터로 변환한다.
-- `PGVectorStore`가 임베딩과 문서 metadata를 PostgreSQL에 저장한다.
-- Retriever는 MMR 검색으로 유사도뿐 아니라 결과의 다양성도 고려한다.
-- `field` 같은 metadata 조건을 검색 단계에 함께 적용할 수 있다.
-- 검색 체인과 대화 이력 체인은 분리해서 이해한 뒤 연결하는 편이 오류를 찾기 쉽다.
+- `OpenAIEmbeddings`는 텍스트를 벡터로 바꾸는 역할을 한다.
+- `PGVectorStore`는 임베딩과 문서 metadata를 PostgreSQL에 저장하고 검색에 사용한다.
+- Retriever는 질문과 관련된 문서를 가져오며, 실습 자료에서는 MMR 방식으로 관련성과 결과 다양성을 함께 고려한다.
+- metadata 조건을 검색에 적용하면 특정 분야의 문서로 검색 범위를 좁힐 수 있다.
 
-### 3. 대화 이력 처리
+이는 실습 자료에서 정리한 구성요소와 동작 개념이다. 이날 PostgreSQL 연결이나 실제 벡터 검색까지 실행해 확인한 것은 아니다.
 
-`session_id`로 대화방을 구분하고 PostgreSQL의 `chat_history`에서 기존 메시지를 읽어 프롬프트에 넣는다. 응답이 생성되면 `HumanMessage`와 `AIMessage`를 다시 저장해 다음 질문에서 사용할 수 있게 한다. 검색 결과 자체를 대화 이력에 저장하는 것이 아니라 메시지 흐름을 저장한다는 점을 구분했다.
+### 3. 검색 결과와 대화 이력의 구분
 
-### 4. 산업재해 RAG 프로젝트의 초기 범위
+대화형 RAG에서는 `session_id`로 대화 세션을 구분하고, 이전 사용자·AI 메시지를 읽어 다음 프롬프트에 반영한 뒤 새 메시지를 저장한다. 검색 결과 문서와 대화 메시지는 목적이 다르므로 별도로 다뤄야 한다. 검색 체인과 history 처리를 따로 확인한 뒤 연결하면 오류가 난 위치를 찾기 쉽다.
 
-`[1]데이터 수집 및 API 데이터 정상 여부 점검_9.22` 문서를 기준으로 M0/M1 단계의 목적은 전처리보다 원본 확보와 구조 확인이다.
+### 4. 산업재해 RAG 프로젝트의 초기 데이터 점검 범위
 
-- 핵심 데이터: SIF 고위험요인 아카이브
-- 보조 데이터: 사고재해자수, 사고사망자수, 사업장수, 사망만인율
-- API 상태 코드·응답 형식·실제 행·전체 건수 확인
-- `head`, `shape`, `columns`, `info`, 결측치, 중복 행 확인
-- 기준연도, 산업·업종, 사업장 규모, 지역, 단위, 행의 grain 확인
-- SIF가 사고 1건 단위인지 위험요인 1건 단위인지 먼저 확인
+`[1]데이터 수집 및 API 데이터 정상 여부 점검_9.22` 계획을 살펴보며 M0/M1 단계는 데이터 전처리보다 원본 확보와 구조 확인을 우선한다는 점을 정리했다.
 
-오늘 단계에서는 원본을 수정하지 않고 결측치와 중복은 개수만 확인해야 한다.
+- 핵심 데이터는 SIF 고위험요인 아카이브, 보조 데이터는 사고재해자수·사고사망자수·사업장수·사망만인율로 계획되어 있다.
+- API는 상태 코드, 응답 형식, 실제 데이터 행, 전체 건수와 컬럼명을 확인해야 한다.
+- 데이터는 `head`, `shape`, `columns`, `info`, 결측치 수, 중복 행 수부터 점검한다.
+- 기준연도, 산업·업종, 사업장 규모, 지역, 단위와 한 행이 나타내는 단위(grain)를 확인해야 한다.
+- 특히 SIF 한 행이 사고 한 건인지 위험요인 한 건인지 확인해야 이후 분석 단위를 정할 수 있다.
+- 원본 보존을 위해 이 단계에서는 결측치·중복을 확인만 하고 수정하지 않는다.
 
-## 직접 확인한 산출물
+## 확인한 자료와 산출물
 
-- `1_pgvector_langchain.ipynb`: pgvector 기반 LangChain RAG 실습 노트북
-- `2_lagnchain_detail.ipynb`: 검색 체인과 대화 이력 체인 상세 실습
-- `rag-flow.md`: 질문부터 최종 답변까지의 RAG 흐름도
-- `2_lagnchain_detail_mermaid.md`: PostgreSQL·PGVectorStore·Retriever·history 통합 구조도
-- `2_lagnchain_detail_study_guide_draft.md`: 셀별 역할, 변수 흐름, 오류 확인 순서, 변형 과제, 완료 기준
-- `[1]데이터 수집 및 API 데이터 정상 여부 점검_9.22`: 산업재해 RAG 데이터 수집·API 점검 계획
+- `1_pgvector_langchain.ipynb`: pgvector 기반 LangChain RAG 실습 자료
+- `2_lagnchain_detail.ipynb`: 검색 체인과 대화 이력 체인 상세 실습 자료
+- `rag-flow.md`, `2_lagnchain_detail_mermaid.md`: RAG 질문 처리와 통합 구성 흐름도
+- `2_lagnchain_detail_study_guide_draft.md`: 셀별 역할, 변수 흐름, 오류 확인 순서와 실습 안내 초안
+- `[1]데이터 수집 및 API 데이터 정상 여부 점검_9.22`: 산업재해 데이터 수집 및 점검 계획
+- `raw-data` 폴더의 보조 데이터 CSV 1개: 산업 중분류·규모별 사고사망자수 자료
 
-## 아직 확인하지 못한 것
+## 아직 검증하지 못한 것
 
-- 실제 API 호출 성공 여부와 인증키 상태
-- SIF 및 보조 데이터 원본의 실제 파일·URL·기준연도
-- 각 데이터의 실제 `shape`, 컬럼명, dtype, 결측치, 중복 수
-- SIF의 실제 grain과 사고사례 5~10건의 텍스트 구조
+- 계획 문서에 적힌 API의 실제 호출 성공 여부와 인증키 상태
+- SIF 원본 데이터의 확보 여부, 기준연도, 컬럼과 실제 grain
+- 확보된 CSV 및 나머지 데이터의 실제 `shape`, dtype, 결측치 수, 중복 행 수
+- SIF 사고사례 5~10건의 텍스트 구조와 사고·위험요인 행 단위
 - PostgreSQL/pgvector 연결과 실제 검색 결과
-- 노트북의 history용 프롬프트 셀에 남은 괄호·쉼표 오류의 수정 및 재실행 결과
+- history용 프롬프트 셀의 오류 수정 및 재실행 여부
 
-## 직접 재현할 다음 실습
+## 다음에 직접 확인할 실습
 
-1. API 또는 CSV에서 원본을 읽고 상태 코드와 응답 형식을 출력한다.
-2. 원본을 복사하지 않고 `head`, `shape`, `columns`, `info`, 결측치, 중복 수를 점검한다.
-3. `Document(page_content, metadata)` 샘플을 만들어 `format_docs`의 출력을 확인한다.
-4. 검색만 수행하는 체인과 검색 결과를 LLM에 전달하는 기본 RAG를 분리해 실행한다.
-5. 검색 결과가 없을 때와 metadata 필터가 적용되지 않을 때를 별도 검증한다.
+1. API 또는 CSV 원본을 읽어 상태 코드·응답 형식·데이터 존재 여부를 확인한다.
+2. 원본을 수정하지 않고 `head`, `shape`, `columns`, `info`, 결측치 수와 중복 행 수를 점검한다.
+3. SIF와 보조 데이터의 기준연도, 주요 컬럼, 단위, 한 행의 의미를 기록한다.
+4. `Document(page_content, metadata)` 예제로 `format_docs`의 출력과 출처 표시를 확인한다.
+5. 검색 체인과 기본 RAG를 나누어 실행하고, 검색 결과가 없거나 metadata 필터가 기대대로 동작하지 않는 경우를 확인한다.
 
 ## 오늘의 한 줄 결론
 
-RAG는 LLM 호출 코드 하나가 아니라 **원본 데이터의 구조·검색 근거·프롬프트·대화 이력을 검증 가능한 흐름으로 연결하는 시스템**이며, 산업재해 프로젝트도 먼저 API와 데이터 grain을 확인해야 안전하게 다음 단계로 넘어갈 수 있다.
+RAG는 질문을 바로 LLM에 넘기는 코드가 아니라 **데이터 구조와 검색 근거, 프롬프트, 대화 이력을 단계별로 연결하고 확인하는 흐름**이다. 산업재해 프로젝트도 실제 API 응답과 데이터 grain을 확인한 뒤 분석·전처리 단계로 진행해야 한다.
